@@ -30,14 +30,14 @@ The study aims to identify which chemical compounds (Flavanoids, Proline, Alcoho
 Utilizei os modelos **rpart** e **Random Forest** para validar quais compostos químicos são os principais discriminadores entre os cultivares de vinho. **Flavanoids** e **Proline** surgiram como os indicadores mais fortes.
 
 <p align="center">
-  <img src="rpart.png" width="45%" />
-  <img src="rf.png" width="45%" />
+  <img src="scrennshots/rpart.png" width="45%" />
+  <img src="scrennshots/rf.png" width="45%" />
 </p>
 
 ### 2. Segmentação de Perfis Químicos (Clustering)
 Apliquei o algoritmo **K-Means (k=3)** para agrupar os vinhos. A visualização 3D abaixo demonstra a separação clara entre os perfis: *Intermédio, Químico Leve e Químico Intenso*.
 
-![Clusters 3D](clusters.png)
+![Clusters 3D](scrennshots/clusters.png)
 
 ### 3. Modelo de Classificação e Performance
 A **Árvore de Decisão (C5.0)** revelou as regras lógicas de separação, enquanto a **Curva ROC** confirmou a alta precisão do modelo, com um **AUC de 0.93**.
@@ -46,4 +46,4 @@ A **Árvore de Decisão (C5.0)** revelou as regras lógicas de separação, enqu
   <img src="arvore-decisao.png" width="60%" />
 </p>
 
-![Curva ROC](ROC.png)
+![Curva ROC](scrennshots/ROC.png)
